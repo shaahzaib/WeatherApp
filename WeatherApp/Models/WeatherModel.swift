@@ -9,7 +9,7 @@
 struct ResponseBody: Decodable{
     
     let coord: CoordinatesResponse
-    let weather: WeatherResponse
+    let weather: [WeatherResponse]
     let main: MainResponse
     let wind: WindResponse
     let name: String
@@ -43,7 +43,7 @@ struct ResponseBody: Decodable{
 }
 
 extension ResponseBody.MainResponse{
-    let feelslike: Double {return feels_like}
-    let tempMin: Double{return temp_min}
-    let 
+    var feelslike: Double {return feels_like}
+    var tempMin: Double{return temp_min}
+    var tempMax: Double{return temp_max}
 }

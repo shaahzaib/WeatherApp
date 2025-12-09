@@ -32,8 +32,8 @@
 		8B7B6BDE2EE8093600FB8A3A = {
 			isa = PBXGroup;
 			children = (
-				8B7B6BE92EE8093600FB8A3A /* WeatherApp */,
 				8B7B6BE82EE8093600FB8A3A /* Products */,
+				8B7B6BE92EE8093600FB8A3A /* WeatherApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +256,7 @@
 				DEVELOPMENT_TEAM = GMH774V3K3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need your location to fetch weather updates. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +289,7 @@
 				DEVELOPMENT_TEAM = GMH774V3K3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need your location to fetch weather updates. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
